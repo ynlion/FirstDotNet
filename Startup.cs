@@ -27,7 +27,7 @@ namespace FirstDotNet
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello Test01!");
+                await context.Response.WriteAsync("Hello Test02!");
             });
         }
     }
